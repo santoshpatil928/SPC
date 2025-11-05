@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="keywords" content="ERP Consulting, EDI, SAP SD, AWS, Training, Placement, Bangalore">
+    <meta name="description" content="SP Integration provides ERP/EDI consulting, IT services, SAP & AWS training, and placement assistance to empower businesses and professionals.">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Integration – Strategic Partner for Business Integration</title>
+    <link href="img/SP Integrationfavicon.png" rel="icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .course-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .course-title {
+            text-align: center;
+            font-size: 2em;
+            color: #333;
+        }
+        /* .search-bar {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .search-bar input {
+            width: 90%;
+            max-width: 500px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        } */
+        .module {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .module-title {
+            font-size: 1.5em;
+            color: #555;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .module-title:hover {
+            color: #007BFF;
+        }
+        .toggle-icon {
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+        }
+        .toggle-icon.expanded {
+            transform: rotate(180deg);
+        }
+        .lessons {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .lessons.visible {
+            max-height: 500px;
+        }
+        .lessons li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="course-container">
+        <h1 class="course-title">Course: Sterling Integrator</h1>
+        
+        <!-- <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search lessons..." oninput="filterLessons()">
+        </div> -->
+
+        <div class="module">
+            <h2 class="module-title" onclick="toggleLessons(this)">
+                Module 1: Electronic Data Interchange
+                <span class="toggle-icon">&#9660;</span>
+            </h2>
+            <ul class="lessons">
+                <li>Introduction to Supply Chain Management</li>
+                <li>EDI Standards (ANSI X12 & EDIFACT)</li>
+                <li>Order to Cash Flow</li>
+                <li>Retail Transaction sets(850, 855, 856, 810, 820)</li>
+                <li>Logistics Transaction sets (204, 990, 214, 210)</li>
+                <li>Warehouse Transaction sets (940, 945, 943, 944, 947)</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h2 class="module-title" onclick="toggleLessons(this)">
+                Module 2: EDI Mapping
+                <span class="toggle-icon">&#9660;</span>
+            </h2>
+            <ul class="lessons">
+                <li><li>IBM B2B Sterling Map Editor Tool (8 0 3)</li>
+                <li>Simple Link</li>
+                <li>Temporary Record</li>
+                <li>Extended Rule</li>
+                <li>Standard Rule</li>
+                <li>Session Rules</li>
+                <li>Map Execution Flow</li>
+                <li>Simple Realtime scenarios</li>
+                <li>Map Functions</li>
+                <li>Indexing (Single & Multi Dimension)</li>
+                <li>Inbound 850 Realtime Map</li>
+                <li>Outbound 856 Realtime Map</li>
+                <li>Sample CSV to XML Map</li>
+                <li>XML to CSV Realtime Map</li>
+                <li>10 Realtime Maps for Practice</li>
+                <li>Interview Based Mapping Scenarios</li>
+            </ul>
+        </div>
+
+        <div class="module">
+            <h2 class="module-title" onclick="toggleLessons(this)">
+                Module 3: Communication Protocols
+                <span class="toggle-icon">&#9660;</span>
+            </h2>
+            <ul class="lessons">
+                <li>FTP</li>
+                <li>FTPs</li>
+                <li>SFTP</li>
+                <li>HTP/HTPs</li>
+                <li>AS2</li>
+                <li>Basic Connect Direct</li>
+            </ul>
+        </div>
+
+        <div class="module">
+            <h2 class="module-title" onclick="toggleLessons(this)">
+                Module 4: Business Process
+                <span class="toggle-icon">&#9660;</span>
+            </h2>
+            <ul class="lessons">
+                <li>Graphical Process Modeler</li>
+                <li>BPML Activities</li>
+                <li>Services & Adapter</li>
+                <li>File System Adapter</li>
+                <li>Generic Inbound Business Process</li>
+                <li>BP Meta Data Info Service</li>
+                <li>Get Document Info Service</li>
+                <li>Timestamp Utility Service</li>
+                <li>Typing Service</li>
+                <li>Invoke Subprocess Service</li>
+                <li>X12DeEnvelopeUnified</li>
+                <li>EDIFACTDeEnvelopeUnified</li>
+                <li>Translation Service</li>
+                <li>Inbound Envelopes (ISA, GS, ST, UNB, UNG, UNH)</li>
+                <li>Generic Outbound Business Process</li>
+                <li>Document Extraction Service</li>
+                <li>EDI Encoder Service</li>
+                <li>EDI Envelope Service</li>
+                <li>ForEach Service</li>
+                <li>Outbound Envelopes (ISA, GS, ST, UNB, UNG, UNH)</li>
+                <li>X12EnvelopeUnifed & EDIFACT EnvelopeUnified</li>
+                <li>Lightweight JDBC Adapter</li>
+                <li>DocToDOM & DOMToDoc Functions</li>
+                <li>Dashboard Components</li>
+            </ul>
+        </div>
+        <div class="module">
+            <h2 class="module-title" onclick="toggleLessons(this)">
+                Module 5: General Discussion
+                <span class="toggle-icon">&#9660;</span>
+            </h2>
+            <ul class="lessons">
+                <li>Support Related Data Translation Failures</li>
+                <li>Resume Preparation</li>
+                <li>Resume Preparation</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <script>
+        function toggleLessons(element) {
+            const lessons = element.nextElementSibling;
+            const icon = element.querySelector('.toggle-icon');
+
+            if (lessons.classList.contains('visible')) {
+                lessons.classList.remove('visible');
+                icon.classList.remove('expanded');
+            } else {
+                lessons.classList.add('visible');
+                icon.classList.add('expanded');
+            }
+        }
+
+        function filterLessons() {
+            const searchInput = document.getElementById("searchInput").value.toLowerCase();
+            const lessons = document.querySelectorAll(".lessons li");
+
+            lessons.forEach(lesson => {
+                const text = lesson.textContent.toLowerCase();
+                lesson.style.display = text.includes(searchInput) ? "" : "none";
+            });
+        }
+    </script>
+</body>
+</html>
